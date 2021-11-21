@@ -35,11 +35,11 @@ To apply bilateral filter, we resized the image to make it smaller then
 we passed smaller image through a smaller bilateral filter 200 times
 then resized it to its original size.
 
-![image](https://user-images.githubusercontent.com/48353755/142763341-9bcab244-745c-41d5-9e3b-bdc7d9e37414.png)
+![image](https://user-images.githubusercontent.com/48353755/142763335-4c0448d8-6b40-413b-870b-ae6eeb408755.png)
 
 Then we combined the image after the image thresholding with the
 image after the bilateral filter using cv2.bitwise_and to get the
 cartoonified image.
 
-![image](https://user-images.githubusercontent.com/48353755/142763335-4c0448d8-6b40-413b-870b-ae6eeb408755.png)
+![image](https://user-images.githubusercontent.com/48353755/142763341-9bcab244-745c-41d5-9e3b-bdc7d9e37414.png)
 
